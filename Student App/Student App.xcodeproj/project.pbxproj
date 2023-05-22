@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		8535F70C2A14BB480026129B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535F70B2A14BB480026129B /* AppDelegate.swift */; };
 		8535F70E2A14BB480026129B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535F70D2A14BB480026129B /* SceneDelegate.swift */; };
-		8535F7102A14BB480026129B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535F70F2A14BB480026129B /* ViewController.swift */; };
 		8535F7132A14BB480026129B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8535F7112A14BB480026129B /* Main.storyboard */; };
 		8535F7152A14BB4B0026129B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8535F7142A14BB4B0026129B /* Assets.xcassets */; };
 		8535F7182A14BB4B0026129B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8535F7162A14BB4B0026129B /* LaunchScreen.storyboard */; };
+		85A389862A1B241300E07A48 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A389852A1B241300E07A48 /* LoginViewController.swift */; };
+		85A389882A1B244500E07A48 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A389872A1B244500E07A48 /* StudentViewController.swift */; };
+		85A3898A2A1B245B00E07A48 /* QRScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A389892A1B245B00E07A48 /* QRScanViewController.swift */; };
+		85A3898C2A1B247700E07A48 /* AttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A3898B2A1B247700E07A48 /* AttendanceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8535F7082A14BB480026129B /* Student App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Student App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8535F70B2A14BB480026129B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8535F70D2A14BB480026129B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8535F70F2A14BB480026129B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8535F7122A14BB480026129B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8535F7142A14BB4B0026129B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8535F7172A14BB4B0026129B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8535F7192A14BB4B0026129B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85A389852A1B241300E07A48 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		85A389872A1B244500E07A48 /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
+		85A389892A1B245B00E07A48 /* QRScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanViewController.swift; sourceTree = "<group>"; };
+		85A3898B2A1B247700E07A48 /* AttendanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,42 @@
 		8535F70A2A14BB480026129B /* Student App */ = {
 			isa = PBXGroup;
 			children = (
+				85A3898D2A1B251200E07A48 /* Model */,
+				85A389842A1B23D300E07A48 /* Control */,
+				85A389832A1B23C000E07A48 /* View */,
 				8535F70B2A14BB480026129B /* AppDelegate.swift */,
 				8535F70D2A14BB480026129B /* SceneDelegate.swift */,
-				8535F70F2A14BB480026129B /* ViewController.swift */,
-				8535F7112A14BB480026129B /* Main.storyboard */,
 				8535F7142A14BB4B0026129B /* Assets.xcassets */,
 				8535F7162A14BB4B0026129B /* LaunchScreen.storyboard */,
 				8535F7192A14BB4B0026129B /* Info.plist */,
 			);
 			path = "Student App";
+			sourceTree = "<group>";
+		};
+		85A389832A1B23C000E07A48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8535F7112A14BB480026129B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85A389842A1B23D300E07A48 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				85A389852A1B241300E07A48 /* LoginViewController.swift */,
+				85A389872A1B244500E07A48 /* StudentViewController.swift */,
+				85A389892A1B245B00E07A48 /* QRScanViewController.swift */,
+				85A3898B2A1B247700E07A48 /* AttendanceViewController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		85A3898D2A1B251200E07A48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8535F7102A14BB480026129B /* ViewController.swift in Sources */,
+				85A3898C2A1B247700E07A48 /* AttendanceViewController.swift in Sources */,
+				85A3898A2A1B245B00E07A48 /* QRScanViewController.swift in Sources */,
+				85A389882A1B244500E07A48 /* StudentViewController.swift in Sources */,
+				85A389862A1B241300E07A48 /* LoginViewController.swift in Sources */,
 				8535F70C2A14BB480026129B /* AppDelegate.swift in Sources */,
 				8535F70E2A14BB480026129B /* SceneDelegate.swift in Sources */,
 			);
