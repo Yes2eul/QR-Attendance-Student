@@ -15,7 +15,7 @@
 		85A389862A1B241300E07A48 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A389852A1B241300E07A48 /* LoginViewController.swift */; };
 		85A389882A1B244500E07A48 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A389872A1B244500E07A48 /* StudentViewController.swift */; };
 		85A3898A2A1B245B00E07A48 /* QRScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A389892A1B245B00E07A48 /* QRScanViewController.swift */; };
-		85A3898F2A1B2B1800E07A48 /* MarkPresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A3898E2A1B2B1800E07A48 /* MarkPresentViewController.swift */; };
+		85A3898C2A1B247700E07A48 /* AttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A3898B2A1B247700E07A48 /* AttendanceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		85A389852A1B241300E07A48 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		85A389872A1B244500E07A48 /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
 		85A389892A1B245B00E07A48 /* QRScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanViewController.swift; sourceTree = "<group>"; };
-		85A3898E2A1B2B1800E07A48 /* MarkPresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkPresentViewController.swift; sourceTree = "<group>"; };
+		85A3898B2A1B247700E07A48 /* AttendanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 				85A389852A1B241300E07A48 /* LoginViewController.swift */,
 				85A389872A1B244500E07A48 /* StudentViewController.swift */,
 				85A389892A1B245B00E07A48 /* QRScanViewController.swift */,
-				85A3898E2A1B2B1800E07A48 /* MarkPresentViewController.swift */,
+				85A3898B2A1B247700E07A48 /* AttendanceViewController.swift */,
 			);
 			path = Control;
 			sourceTree = "<group>";
@@ -171,10 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85A3898C2A1B247700E07A48 /* AttendanceViewController.swift in Sources */,
 				85A3898A2A1B245B00E07A48 /* QRScanViewController.swift in Sources */,
 				85A389882A1B244500E07A48 /* StudentViewController.swift in Sources */,
 				85A389862A1B241300E07A48 /* LoginViewController.swift in Sources */,
-				85A3898F2A1B2B1800E07A48 /* MarkPresentViewController.swift in Sources */,
 				8535F70C2A14BB480026129B /* AppDelegate.swift in Sources */,
 				8535F70E2A14BB480026129B /* SceneDelegate.swift in Sources */,
 			);
