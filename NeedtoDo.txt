@@ -1,0 +1,9 @@
+Three Interfaces
+
+Student App
+- Welcome Page
+- Login Page
+- QR Code Scan Page
+- Corfirm Page to login
+
+Teacher App
