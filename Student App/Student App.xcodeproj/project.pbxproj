@@ -16,7 +16,6 @@
 		85A389982A1B363100E07A48 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A389972A1B363100E07A48 /* StudentViewController.swift */; };
 		85A3899A2A1B363D00E07A48 /* QRScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A389992A1B363D00E07A48 /* QRScanViewController.swift */; };
 		85A3899C2A1B364C00E07A48 /* MarkPresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A3899B2A1B364C00E07A48 /* MarkPresentViewController.swift */; };
-		85A3899F2A1B467F00E07A48 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A3899E2A1B467F00E07A48 /* QRCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +30,6 @@
 		85A389972A1B363100E07A48 /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
 		85A389992A1B363D00E07A48 /* QRScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScanViewController.swift; sourceTree = "<group>"; };
 		85A3899B2A1B364C00E07A48 /* MarkPresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkPresentViewController.swift; sourceTree = "<group>"; };
-		85A3899E2A1B467F00E07A48 /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +62,7 @@
 		8535F70A2A14BB480026129B /* Student App */ = {
 			isa = PBXGroup;
 			children = (
-				85A3899D2A1B466800E07A48 /* Model */,
+				85A389912A1B359A00E07A48 /* Model */,
 				85A389922A1B35A100E07A48 /* View */,
 				85A389932A1B35A500E07A48 /* Control */,
 				8535F70B2A14BB480026129B /* AppDelegate.swift */,
@@ -74,6 +72,13 @@
 				8535F7192A14BB4B0026129B /* Info.plist */,
 			);
 			path = "Student App";
+			sourceTree = "<group>";
+		};
+		85A389912A1B359A00E07A48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		85A389922A1B35A100E07A48 /* View */ = {
@@ -93,14 +98,6 @@
 				85A3899B2A1B364C00E07A48 /* MarkPresentViewController.swift */,
 			);
 			path = Control;
-			sourceTree = "<group>";
-		};
-		85A3899D2A1B466800E07A48 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				85A3899E2A1B467F00E07A48 /* QRCode.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +171,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85A3899F2A1B467F00E07A48 /* QRCode.swift in Sources */,
 				85A3899A2A1B363D00E07A48 /* QRScanViewController.swift in Sources */,
 				85A389982A1B363100E07A48 /* StudentViewController.swift in Sources */,
 				85A389952A1B361D00E07A48 /* LoginViewController.swift in Sources */,
