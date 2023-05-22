@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8500D8EA2A1B480D00EEEAD4 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8500D8E92A1B480D00EEEAD4 /* Camera.swift */; };
 		8535F70C2A14BB480026129B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535F70B2A14BB480026129B /* AppDelegate.swift */; };
 		8535F70E2A14BB480026129B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535F70D2A14BB480026129B /* SceneDelegate.swift */; };
 		8535F7132A14BB480026129B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8535F7112A14BB480026129B /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8500D8E92A1B480D00EEEAD4 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		8535F7082A14BB480026129B /* Student App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Student App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8535F70B2A14BB480026129B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8535F70D2A14BB480026129B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8500D8E82A1B47F800EEEAD4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8500D8E92A1B480D00EEEAD4 /* Camera.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8535F6FF2A14BB480026129B = {
 			isa = PBXGroup;
 			children = (
@@ -62,7 +72,7 @@
 		8535F70A2A14BB480026129B /* Student App */ = {
 			isa = PBXGroup;
 			children = (
-				85A389912A1B359A00E07A48 /* Model */,
+				8500D8E82A1B47F800EEEAD4 /* Model */,
 				85A389922A1B35A100E07A48 /* View */,
 				85A389932A1B35A500E07A48 /* Control */,
 				8535F70B2A14BB480026129B /* AppDelegate.swift */,
@@ -72,13 +82,6 @@
 				8535F7192A14BB4B0026129B /* Info.plist */,
 			);
 			path = "Student App";
-			sourceTree = "<group>";
-		};
-		85A389912A1B359A00E07A48 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		85A389922A1B35A100E07A48 /* View */ = {
@@ -176,6 +179,7 @@
 				85A389952A1B361D00E07A48 /* LoginViewController.swift in Sources */,
 				8535F70C2A14BB480026129B /* AppDelegate.swift in Sources */,
 				8535F70E2A14BB480026129B /* SceneDelegate.swift in Sources */,
+				8500D8EA2A1B480D00EEEAD4 /* Camera.swift in Sources */,
 				85A3899C2A1B364C00E07A48 /* MarkPresentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
