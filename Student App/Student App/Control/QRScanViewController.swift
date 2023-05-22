@@ -1,13 +1,14 @@
 //
-//  ViewController.swift
+//  QRScanViewController.swift
 //  Student App
 //
-//  Created by Yeseul Shin on 17/5/2023.
+//  Created by Yeseul Shin on 22/5/2023.
 //
 
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
+class QRScanViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,4 +17,3 @@ class ViewController: UIViewController {
 
 
 }
-
